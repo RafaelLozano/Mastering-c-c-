@@ -6,6 +6,7 @@ struct Rectangle
 };
 int main(int argc, char const *argv[])
 {
+    //dinamic object
     struct Rectangle *p;
     p=(struct Rectangle *)malloc(sizeof(struct Rectangle));
     p->lenght=10;
